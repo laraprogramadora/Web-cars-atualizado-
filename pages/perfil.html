@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>WebCars</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/index.css" rel="stylesheet">
+<script src="../js/login.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">WebCars</a>
+
+        <button class="navbar-togler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded='false' 
+        aria-label="Alterna Navegação">
+            <span class="navbar-toggler-icon">
+
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="textoNavbar">
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Carros Disponíveis</a>
+                </li>
+
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="true" 
+                    aria-haspopup="true" aria-expanded="false">Tarefas</a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="tarefas.html" class="dropdown-item">Todos</a>
+                        <div class="dropdown-divider">
+
+                        </div>
+                        <a href="tarefas.html" class="dropdown-item">Academico</a>
+                        <a href="tarefas.html" class="dropdown-item">profissional</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Perfil</a>
+
+                </li>
+            </ul>
+
+            <span class="navbar-text">
+               <a href="login.html">Sair</a> 
+            </span>
+        </div>
+    </nav>
+    <div class="container rounded bg-white mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-3 border-right">
+                <div class="d-flex flex-column aligm-items-center text-center p-3 py-5">
+                    <img class="rounded-circle mt-5 " width="100px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg
+                    " >
+                    <span class="font-weight-bold">
+                        Nome
+                    </span>
+                    <span class="text-black-50">
+                        tatatararara@gmail.com
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-center align-items-center mb-3">
+                        <h4>Configurações do perfil</h4>
+
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                            <label class="labels" for="">Nome</label>
+                            <input type="text" class="form-control" placeholder="primeiro nome" value="">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="labels" for="">SobreNome</label>
+                            <input type="text" class="form-control" placeholder="sobrenome" value="">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <label class="labels" for="">Número de Telefone</label>
+                            <input type="text" class="form-control" placeholder="telefone para contato" value="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label class="labels" for="">Bairro</label>
+                            <input type="text" class="form-control" placeholder="digite o nome do seu Bairro" value="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label class="labels" for="">Rua</label>
+                            <input type="text" class="form-control" placeholder="digite a Rua" value="">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="labels" for="">CEP</label>
+                            <input type="text" class="form-control" placeholder="digite o seu CEP" value="">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="labels" for="">Estado</label>
+                            <input type="text" class="form-control" placeholder="digite o Estado" value="">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="labels" for="">Email</label>
+                            <input type="email" class="form-control" placeholder="digite o email" value="">
+                        </div>
+                    </div>
+                    <div class="mt-5 text-center">
+                        <button class="btn btn-primary profile-button " type="button">
+                            Salvar
+                        </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content--center align-items-center" >
+                            <h4> Informações de login</h4>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="labels" for="">Login</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="labels" for="">Senha</label>
+                            <input type="password" class="form-control" value="">
+                        </div>
+                    </div>
+
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

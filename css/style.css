@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#imagem{
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1604/2016_Lamborghini_Huracan-Luxury_Car_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+#login .container #login-row #login-column{
+    margin-top:120px;
+    max-width: 600px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 30px 30px 30px;
+    box-shadow: 0px 0px 30px 0px #000000;
+}
+#login .container #login-row #login-column #login-form{
+    padding: 20px;
+    margin-top: 30px;
+
+}   
+
+.form-group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.botao{ 
+    border-radius: 10px 10px 10px;
+    width: 250px;
+    padding: 22px 46px; 
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    background: rgb(53, 46, 46);
+    border: 3px solid rgb(54, 50, 50);
+    transform: .4s;
+}
+/*.botao:hover{
+    background-image: linear-gradient(to right, #ff1212, #fff  );
+    border-radius: 10px 10px 10px;
+    width: 250px;
+    padding: 10px; 
+    
+}*/
+.botao:hover{
+    z-index: 1;
+    border-color: transparent;
+    background: linear-gradient(
+        90deg,
+        #000000,
+        #ff1212,
+        #fff
+       
+
+    );
+    background-size: 400%;
+    box-shadow: 0 0 15px rgb(2, 3, 24);
+    animation: glow 12s linear forwards;
+
+}
+
+@keyframes glow{
+
+    from{
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 400%;
+    }
+}
+.botao::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: inherit;
+    filter: blur(36px);
+    z-index: -1;
+    opacity: 0;
+    transform: .4s ease-out;
+}
+
+.botao:hover:before{
+    z-index: 1;
+    opacity: -1;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-image: url();
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+#imagem{
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1604/2016_Lamborghini_Huracan-Luxury_Car_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+#cadastro .container #register-row #register-column{
+    margin-top: 140px;
+    max-width: 600px;
+    height: 400px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 30px 30px 30px;
+    box-shadow: 0px 0px 30px 0px #000000;
+}
+#cadastro .container #register-row #register-column #login-form{
+    padding: 20px;
+    margin-top: 30px;
+
+}   
+
+.form-group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.botao{
+    /*background-image: linear-gradient(to right, #fff, #ff1212  );*/
+    border-radius: 10px 10px 10px;
+    width: 150px;
+    padding: 10px;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.Volte{
+    background-image: linear-gradient(to right, #fff, #0000);
+    width: 150px;
+    padding: 10px;
+}
+

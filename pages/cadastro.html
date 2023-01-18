@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>nome do site(decidir)</title>
+    <meta charset="utf-8">
+    
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/style.css" rel="stylesheet">
+<script src="../js/login.js"></script>
+    <body id="imagem">
+        <div id="cadastro">
+            <h3 class="text-center pt-5 text-white" >Formulário de registro</h3>
+            <div class="container">
+                <div id="register-row" class="row justify-content-center align-items-center">
+                    <div id="register-column" class="col-md-6">
+                        <div id="register-box" class="col-md-12"></div>
+                        <form id="register-form" class="form">
+                            <br>
+                            <div class="form-group">
+                                <label for="username" class="text-black">Nome do usuário:</label>
+                                <input type="text" id="username" name="username" class="form-control">
+    
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="text-black">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+    
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password" class="text-black">Senha:</label>
+                                <input type="password" id="password" name="password" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-black">Confirme a senha:</label>
+                                <input type="password" id="repeat-password" name="password" class="form-control" required>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input onclick="register()" type="submit" name="submit" value="Registre-se" class="botao"> 
+
+                                    </div> 
+                                    <div class="col-md-6">
+                                        <a href="index.html" class=" Volte btn btn-success btn-md mt-1">Volte</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </body>
+  </head>
+</html>
